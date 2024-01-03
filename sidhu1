@@ -1,0 +1,152 @@
+package crush_Match;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+
+        String User_1="sheshank";
+        String user_2="venkat";
+        String user_3="varadh";
+        String user_4="Vignesh";
+        String Girl_Match="Null";
+        Scanner sc = new Scanner(System.in);
+        Random r = new Random();
+        int y=r.nextInt(24);
+        System.out.println(y);
+        System.out.println("enter the choice");
+        int x=sc.nextInt();
+        switch(x){
+            case 0:System.out.println("welcome:"+User_1);
+                break;
+            case 1:
+                System.out.println("welcome:"+user_2);
+                break;
+            case 2:
+                System.out.println("Welcome:"+user_3);
+                break;
+            case 3:
+                System.out.println("Welcome:"+user_4);
+                break;
+            default:
+                System.out.println("please enter the valid option");
+                break;
+
+        }
+
+
+        if(x>3){
+            System.exit(0);
+        }
+        else {
+            System.out.println("Finding ur perfect match so u can go with her");
+            switch (y) {
+                case 0:
+                    Girl_Match = "pranathi";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 1:
+                    Girl_Match = "meghana";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 2:
+                    Girl_Match = "Nikitha";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 3:
+                    Girl_Match = "Akshu Goud";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 4:
+                    Girl_Match = "akshitha(67)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 5:
+                    Girl_Match = "Akshitha(A4)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 6:
+                    Girl_Match = "satwikha";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 7:
+                    Girl_Match = "divyasree(72)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 8:
+                    Girl_Match = "divyasree(73)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 9:
+                    Girl_Match = "triveni(active women)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 10:
+                    Girl_Match = "sreya";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 11:
+                    Girl_Match = "maya (Snake)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 12:
+                    Girl_Match = "padhmavathi(wife of Ranveer)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 13:
+                    Girl_Match = "sama";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 14:
+                    Girl_Match = "koja(A0)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 15:
+                    Girl_Match = "kavyasree";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 16:
+                    Girl_Match = "sumasree(CR)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 17:
+                    Girl_Match = "Chandramukhi(79)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 18:
+                    Girl_Match = "Akshara";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 19:
+                    Girl_Match = "Harshitha(batch mate)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 20:
+                    Girl_Match = "tejasree(dont know who is she)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 21:
+                    Girl_Match = "shilpa";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 22:
+                    Girl_Match = "Niharika(Topper frnd)";
+                    System.out.println("the girl is :" + Girl_Match);
+                    break;
+                case 23:
+                    Girl_Match="varshini";
+                    System.out.println("the girl is :"+Girl_Match);
+                    break;
+            }
+        }
+        switch (x) {
+
+            case 0->
+                    System.out.println(User_1+" now go with :" + Girl_Match + " and date with her:");
+
+            case 1->
+                    System.out.println(user_2+" now go with her :"+Girl_Match+" enjoy ur date ");
+            case 2->System.out.println(user_3+" now go with her :"+Girl_Match+" enjoy ur date ");
+            case 3->System.out.println(user_4+" now go with her :"+Girl_Match+" enjoy ur date ");
+            default -> System.out.println("didnt enter the valid option");
+        }            }
+
+}
